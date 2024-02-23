@@ -1,0 +1,39 @@
+.about{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+        font-size: 50px;
+    }
+    .container{
+        width: 60%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 30px 0;
+        h4{
+            font-size: 25px;
+            span{
+                color: crimson
+            }
+        }
+        
+        .paragraph{
+            font-size: 20px;
+            font-weight: 350;
+            width: 80%;
+            margin-top: 20px;  
+             
+           }
+
+        .resume{
+            background-color: blue;
+            color: white;
+            border-radius: 5%;
+            padding: 20px 20px ;
+            margin-top: 20px;
+        }
+    }
+}
