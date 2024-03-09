@@ -2,7 +2,8 @@ import { useState } from 'react';
 import './projects.scss'
 
 export default function Projects() {
-  const [currentSlide , setcurrentSlide] = useState(0)
+  //const [currentSlide , setcurrentSlide] = useState(0)
+  const [currentSlide ] = useState(0)
   const data =[
     {
       
