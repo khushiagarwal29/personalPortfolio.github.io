@@ -7,7 +7,9 @@
     align-items: center;
 
     h1{
-        font-size: 50px;
+        font-size: 4vw;
+        font-weight: 600;
+        margin-top: 3vh;
     }
     ul{
         margin: 10px;
@@ -16,15 +18,15 @@
         display: flex;
     }
     .container{
-        width: 70%;
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
 
         .item{
-            width: 220px;
-            height: 150px;
+            width: 23vw;
+            height: 18vh;
             border-radius: 20px;
             border: 1px solid rgb(240, 239, 239);
             margin: 10px 20px;
@@ -57,5 +59,15 @@
 
        
 
+    }
+}
+
+@media (max-width:600px) {
+    .skills{
+        .container{
+            .item{
+                width: 39vw;
+            }
+        }
     }
 }

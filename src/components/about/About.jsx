@@ -11,13 +11,14 @@ export default function About() {
         <p className="paragraph">
           Hello Everyone👋, 
           I am B.Tech graduate who has completed her engineering in 2021. I am currently working as a <strong>Systems Engineer 
-          at Tata Consultancy Servies</strong> for about <strong>3 years</strong>. 
-          </p>
-          <p className="paragraph">Over the past while, I've explored both web and backend development, 
+          at Tata Consultancy Servies</strong> for about <strong>3 years</strong>.
+          <br /> 
+          <br />
+          Over the past while, I've explored both web and backend development, 
           learning how to create websites that not only look good but also have strong, reliable backend systems 
           supporting them.
-          </p>
-          <p className="paragraph">
+          <br />
+          <br />
           In my role, I handle various technologies like Java, 
           HTML, CSS, AngularJS, ReactJS, PostgreSQL, Spring Boot, and Spring Framework to create websites and applications.
           I enjoy problem-solving and collaborating with others to create useful solutions.

@@ -3,37 +3,62 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
     h1{
-        font-size: 50px;
+        font-size: 4vw;
+        font-weight: 600;
+        margin-top: 3vh;
     }
     .container{
-        width: 60%;
+        width: 80vw;
         align-items: center;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin: 30px 0;
+        margin: 3vw 0;
         h4{
-            font-size: 25px;
+            font-size: 2vw;
             span{
                 color: crimson
             }
         }
         
         .paragraph{
-            font-size: 20px;
+            font-size: 1.5vw;
             font-weight: 350;
-            width: 80%;
-            margin-top: 20px;  
-             
-           }
+            width: 70vw;
+            margin-top: 1vw;  
+        }
 
         .resume{
             background-color: blue;
             color: white;
             border-radius: 5%;
-            padding: 20px 20px ;
-            margin-top: 20px;
+            padding: 1.5vw 1.5vw ;
+            margin-top: 1.8vw;
         }
     }
+}
+
+@media (max-width:600px) {
+    .about{
+        .container{
+            h4{
+                font-size: 3.8vw;
+            }
+            .paragraph{
+                font-size: 3.8vw;
+                font-weight: 350;
+                width: 60vw;
+                margin-top: 1vw;  
+            }
+            .resume{
+                border-radius: 5%;
+                padding: 1.3vw 1.3vw ;
+                margin-top: 1.8vw;
+                font-size: 2.5vw;
+            }
+        }
+    }
+    
 }

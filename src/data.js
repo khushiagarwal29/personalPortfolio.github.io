@@ -13,13 +13,13 @@ export const featuredPortfolio = [
     },
     {
       id: 3,
-      title: "React",
+      title: "ReactJS",
       img:
         "./assets/reactIcon.jpg",
     },
     {
       id: 4,
-      title: "Angular",
+      title: "AngularJS",
       img:
         "./assets/angularIcon.jpg",
     },
