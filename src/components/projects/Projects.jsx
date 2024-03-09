@@ -34,10 +34,10 @@ export default function Projects() {
     },
   ];
 
-  const handleClick = (way)=>{
-    way === "left" ? setcurrentSlide(currentSlide > 0 ? currentSlide -1 : 2) :
-    setcurrentSlide(currentSlide<data.length-1 ? currentSlide +1 : 0);
-  };
+  // const handleClick = (way)=>{
+  //   way === "left" ? setcurrentSlide(currentSlide > 0 ? currentSlide -1 : 2) :
+  //   setcurrentSlide(currentSlide<data.length-1 ? currentSlide +1 : 0);
+  // };
 
   return (
    
